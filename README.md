@@ -6,8 +6,9 @@ npm install
 slc run
 ```
 
-- [How do you use static middleware?](https://github.com/strongloop/loopback-faq-middleware#how-do-you-use-static-middleware)
+- [How do you serve static content via static middleware?](https://github.com/strongloop/loopback-faq-middleware#how-do-serve-static-content-via-static-middleware)
 
-#How do you use static middleware?
-1. Remove the contents of the default [routes property](https://github.com/strongloop/loopback-faq-middleware/blob/master/server/middleware.json#L14-L15) in middleware.json
-2. Add static middleware to the [files property](https://github.com/strongloop/loopback-faq-middleware/blob/master/server/middleware.json#L17-L19) in middleware.json
+#How do you serve static content via static middleware?
+1. Add static middleware to the [files property](https://github.com/strongloop/loopback-faq-middleware/blob/master/server/middleware.json#L17-L19) in middleware.json
+2. Delete `server/boot/root.js`.
+3. Create [`client/index.html`](https://github.com/strongloop/loopback-faq-middleware/blob/master/client/index.html)
