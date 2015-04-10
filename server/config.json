@@ -21,9 +21,6 @@
     "cors": {
       "origin": true,
       "credentials": true
-    },
-    "errorHandler": {
-      "disableStackTrace": false
     }
   }
 }
