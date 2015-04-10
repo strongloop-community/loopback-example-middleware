@@ -13,3 +13,9 @@ slc run
 2. Delete [`server/boot/root.js`](https://github.com/strongloop/loopback-faq-middleware/blob/master/server/boot).
 3. Create [`client/index.html`](https://github.com/strongloop/loopback-faq-middleware/blob/master/client/index.html)
 4. Start the server via `slc run` and browse to [`localhost:3000`](http://localhost:3000). You should see `hello world` being served.
+
+
+#How do you create a custom error message for all errors?
+1. Create a [single function](https://github.com/strongloop/loopback-faq-middleware/blob/master/server/server.json#L33-l41) that all errors are passed to.
+2. Set `app.get('remoting').errorHandler` to call a custom error handler. [See here](https://github.com/strongloop/loopback-faq-middleware/blob/master/server/server.json#L23-l31)) 
+3. Create a [`custom-error`](https://github.com/strongloop/loopback-faq-middleware/blob/master/server/middleware/custom-error.js) middleware to handle errors not thrown by the `loopback.rest()` middleware.
