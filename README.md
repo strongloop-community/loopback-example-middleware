@@ -17,5 +17,5 @@ slc run
 
 #How do you create a custom error message for all errors?
 1. Create a [single function](https://github.com/strongloop/loopback-faq-middleware/blob/master/server/server.js#L33-l41) that all errors are passed to.
-2. [Set `app.get('remoting').errorHandler` to call a custom error handler](https://github.com/strongloop/loopback-faq-middleware/blob/master/server/server.js#L23-l31).
+2. Set [`app.get('remoting').errorHandler`](https://github.com/strongloop/loopback-faq-middleware/blob/master/server/server.js#L23-l31) to call a custom error handler.
 3. Create a [`custom error middleware`](https://github.com/strongloop/loopback-faq-middleware/blob/master/server/middleware/custom-error.js) to handle errors not thrown by the `loopback.rest()` middleware.
