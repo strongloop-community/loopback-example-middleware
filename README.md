@@ -1,9 +1,9 @@
 #loopback-faq-middleware
 ```
-git clone git@github.com:strongloop/loopback-faq-middleware.git
-cd loopback-faq-middleware
-npm install
-node .
+$ git clone git@github.com:strongloop/loopback-faq-middleware.git
+$ cd loopback-faq-middleware
+$ npm install
+$ node .
 ```
 
 - [How do you serve static content via static middleware?](https://github.com/strongloop/loopback-faq-middleware#how-do-you-serve-static-content-via-static-middleware)
