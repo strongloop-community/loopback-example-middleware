@@ -1,5 +1,5 @@
 {
-  "name": "loopback-faq-middleware",
+  "name": "loopback-example-middleware",
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
@@ -23,5 +23,5 @@
     "type": "",
     "url": ""
   },
-  "description": "loopback-faq-middleware"
+  "description": "loopback-example-middleware"
 }
