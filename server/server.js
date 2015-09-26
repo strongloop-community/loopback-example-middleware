@@ -28,7 +28,7 @@ app.get('remoting').errorHandler = {
     defaultHandler(err);
   },
   disableStackTrace: true
-}
+};
 
 app.buildError = function(err) {
   err.message = 'Custom message: ' + err.message;
@@ -38,4 +38,4 @@ app.buildError = function(err) {
   delete err.statusCode;
 
   return err;
-}
+};
