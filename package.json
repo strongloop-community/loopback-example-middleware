@@ -23,8 +23,8 @@
     "tape": "^4.2.0"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/strongloop/loopback-example-middleware"
   },
   "description": "loopback-example-middleware",
   "license": "MIT"
