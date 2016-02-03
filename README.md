@@ -21,3 +21,7 @@ $ node .
 3. Create a [`custom error middleware`](https://github.com/strongloop/loopback-example-middleware/blob/master/server/middleware/custom-error.js) to handle errors not thrown by the `loopback.rest()` middleware.
 
 **Note: you must register your custom error handler in the [middleware.json](https://github.com/strongloop/loopback-example-middleware/blob/master/server/middleware.json#L25) config file.**
+
+---
+
+[More LoopBack examples](https://github.com/strongloop/loopback-example)
