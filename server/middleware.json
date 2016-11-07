@@ -3,7 +3,14 @@
     "loopback#favicon": {}
   },
   "initial": {
-    "compression": {}
+    "compression": {},
+    "cors": {
+      "params": {
+        "origin": true,
+        "credentials": true,
+        "maxAge": 86400
+      }
+    }
   },
   "session": {
   },
@@ -26,6 +33,6 @@
   },
   "final:after": {
     "./middleware/custom-error": {},
-    "errorhandler": {}
+    "strong-error-handler": {}
   }
 }
